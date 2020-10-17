@@ -12,7 +12,7 @@ class LinkedList
 
         ~LinkedList() = default;
 
-        LinkedList *ptr_child_;
+        LinkedList *ptr_child_ {NULL};
     
         friend void print_data(LinkedList* ptr);
     
