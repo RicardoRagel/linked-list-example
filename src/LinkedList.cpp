@@ -15,6 +15,11 @@ LinkedList::LinkedList(LinkedList *ptr_child, int data)
     data_ = data;
 }
 
+int LinkedList::getData()
+{
+    return data_;
+}
+
 // Friend function, so it can access to private data
 void print_data(LinkedList* ptr)
 {
